@@ -1,0 +1,52 @@
+body{
+	margin: 0 auto !important;
+	padding: 0 !important;
+}
+h1{
+	color: #fff !important;
+}
+#currencycon {
+    background-color: #5fbcd3;
+    height: 300px;
+    text-align: center;
+    padding: 50px;
+}
+.btn.btn-primary {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 100px;
+}
+#from, #to {
+    height: 26px;
+}
+img{
+	margin: 10px;
+}
+.col-sm-4{
+	padding: 0px !important;
+}
+#errmsg{
+	display: block;
+	color: red;
+}
+input {
+    border:2px solid #dadada; 
+}
+input:focus { 
+    outline:none;
+    border-color:#9ecaed;
+    -moz-box-shadow: inset inset -2px -3px 15px -1px #5FBCD3;
+	-webkit-box-shadow: inset -2px -3px 15px -1px #5FBCD3;
+	box-shadow: inset inset -2px -3px 15px -1px #5FBCD3;
+}
+@media screen and (max-width: 320px) {
+    #currencycon{
+    	padding: 15px;
+    }
+    img{
+    	display: block;
+		margin: 0 auto;
+		transform: rotate(90deg);
+    }
+}

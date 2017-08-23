@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>convertor</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+    	<div class="container-fluid">
+	    	<div class="row">
+		    	<div class="col-sm-4">
+			    	<div id="currencycon">
+			    		<h1>CURRENCY CONVERTOR</h1>
+			        	<form id="convertor">
+				        	<table>
+					        	<tr>
+					        		 <select id="from" onchange="convert('C')">
+					                    <option value="EUR">EUR</option>
+					                    <option value="USD" selected>USD</option>
+					                    <option value="RSD" selected>RSD</option>
+					               	</select>
+					            </td>    
+					            <input id="firstinput" Onclick="changeColor()" onkeyup="convert('C');"></td>
+					        	</tr>
+					        	<img src="svg/swap.svg">
+					        	<tr>
+					        		<select id="to" onchange="convert('F')">
+					                    <option value="EUR">EUR</option>
+					                    <option value="RSD" selected>RSD</option>
+					                    <option value="USD" selected>USD</option>
+					                </select>
+					            	<input id="secondinput" Onclick="changeColor()" onkeyup="convert('F')"><br><span id="errmsg"></span></td>
+					        	</tr>
+					         	<input class="btn btn-primary" type="button" onclick="myFunction()" value="Reset">
+				        	</table>
+				    	</form>
+				    </div>
+				</div>
+				<div class="col-sm-8"></div>
+			</div>
+		</div>		
+    </body>
+</html>
+<script src="js/javaScript.js"></script>
+
+
+
+
+</body>
+</html>
